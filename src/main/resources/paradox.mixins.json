@@ -1,0 +1,21 @@
+{
+	"required": true,
+	"package": "gay.paradox.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"MixinClientConnection"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"client": [
+		"MixinClientPlayerEntity",
+		"MixinGameRenderer",
+		"MixinInGameHud",
+		"MixinKeyboard",
+		"MixinMinecraftClient",
+		"MouseHandlerAccessor",
+		"ClientPlayerInteractionManagerAccessor",
+		"MinecraftClientAccessor"
+	]
+}
